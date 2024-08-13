@@ -75,14 +75,13 @@ form {
 .div-config{
   display: block;
   width: 100%;
-  margin-right: 0.625rem;
   height: 2.300rem;
   color: #ab98ff;
   background-color: #ffffff;
   background-clip: padding-box;
-  border: 1px solid ##ffffff;
+  border: 0;
   border-radius: 0.20rem;
-
+  padding: 0;
 }
 
 .input-radio,
@@ -96,6 +95,8 @@ form {
 .textarea {
   width: 100%;
   display: block;
+  padding: 0;
+  border: 0;
 }
 
 input,
