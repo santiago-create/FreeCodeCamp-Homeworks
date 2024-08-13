@@ -42,8 +42,7 @@ p {
 }
 
 .container {
-  max-width: 550px;
-  width: 100%;
+  width: 66%;
   margin: 3.125rem auto 0 auto;
 }
 
@@ -65,7 +64,7 @@ form {
 
   form {
     padding: 2.5rem;
-    min-width: 550px
+    min-width: 560px
   }
 
 .div-group {
@@ -76,8 +75,8 @@ form {
 .div-config{
   display: block;
   width: 100%;
+  margin-right: 0.625rem;
   height: 2.300rem;
-  padding: 0.370rem 0.0rem;
   color: #ab98ff;
   background-color: #ffffff;
   background-clip: padding-box;
