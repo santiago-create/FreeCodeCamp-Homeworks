@@ -76,9 +76,9 @@ form {
   height: 2.300rem;
   padding: 0.370rem 0.0rem;
   color: #ab98ff;
-  background-color: #ffe3f5;
+  background-color: #ffffff;
   background-clip: padding-box;
-  border: 1px solid #ffe3f5;
+  border: 1px solid ##ffffff;
   border-radius: 0.20rem;
   transition: border-color 0.10s ease-in-out, box-shadow 0.10s ease-in-out;
 }
