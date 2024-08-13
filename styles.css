@@ -69,7 +69,6 @@ form {
 
 .div-group {
   margin: 0 auto 1.25rem auto;
-  padding: 0.25rem;
 }
 
 .div-config{
@@ -131,4 +130,6 @@ p {
   padding: 0.25rem;
   background: rgb(61, 209, 61);
   color: white;
+  border: 0;
+  border-radius: 0.25rem;
 }
