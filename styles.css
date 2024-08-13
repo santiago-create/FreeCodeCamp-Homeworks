@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body::before {
   content: '';
   position: fixed;
@@ -6,7 +8,7 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: var(--color-darkblue);
+  background: var(darkblue);
   background-image: linear-gradient(115deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 56, 0.7)), url(https://img.freepik.com/foto-gratis/crop-architect-opening-blueprint_23-2147710985.jpg?w=740&t=st=1723518157~exp=1723518757~hmac=05f5afc4db58e654c16c1fe542c8bce79d1ff70ed54c18f9165953b7d20b23e8);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +20,7 @@ body::before {
 }
 
 body{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Anek Devanagari", sans-serif;;
   font-size: 1.3rem;
   line-height: normal;
   margin: 0;
@@ -30,6 +32,7 @@ body{
 header{
   text-align: center;
   font: bolder;
+  font-family: "Anek Devanagari", sans-serif;;
 }
 
 h1,
@@ -39,7 +42,7 @@ p {
 }
 
 .container {
-  max-width: 540px;
+  max-width: 550px;
   width: 100%;
   margin: 3.125rem auto 0 auto;
 }
@@ -48,15 +51,15 @@ p {
   --color-white: #ffffff;
   --color-darkblue: #1b1b32;
   --color-darkblue-alpha: rgba(6, 17, 49, 0.8);
-  --color-green: #37af65;
+  --color-green:  rgb(61, 209, 61);
 }
 
 
 
 form {
-  background: rgba(6, 17, 49, 0.8);
-  padding: 2.5rem 0.625rem;
-  border-radius: 0.25rem;
+  background: rgba(36, 31, 74, 0.8);
+  padding: 3.0rem 1.00rem;
+  border-radius: 0.50rem;
 }
 
 @media (min-width: 480px) {
@@ -80,7 +83,7 @@ form {
   background-clip: padding-box;
   border: 1px solid ##ffffff;
   border-radius: 0.20rem;
-  transition: border-color 0.10s ease-in-out, box-shadow 0.10s ease-in-out;
+
 }
 
 .input-radio,
@@ -103,7 +106,7 @@ button,
 select,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: "Anek Devanagari", sans-serif;
   font-size: inherit;
   line-height: inherit;
 }
@@ -122,4 +125,12 @@ h1 {
 
 p {
   font-size: 1.300rem;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.25rem;
+  background: rgb(61, 209, 61);
+  color: white;
 }
